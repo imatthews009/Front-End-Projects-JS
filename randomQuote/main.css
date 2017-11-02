@@ -1,0 +1,53 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+    background-color: #f7e5d9 !important;
+}
+.header {
+    text-align: center;
+    padding: 20px;
+}
+
+.header hr {
+    width: 150px;
+    color: black;
+    border-top: 1px solid gray;
+}
+
+.quoteBox {
+    text-align: left;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.quoteBox h3 {
+    text-align: center;
+    margin: auto;
+/*    border: solid 1px black;*/
+    padding: 20px;
+    color: #85B3DB;
+}
+
+.quoteBox h5 {
+/*    text-align: center;*/
+    margin-right: 200px;
+    float: right;
+/*    padding: 20px;*/
+    color: #85B3DB;
+
+}
+.quoteButton {
+    margin-right: 40px;
+    float: right;
+    margin-top: 25px !important;
+}
+.shareButton {
+    margin-right: 40px;
+    float: right;
+    margin-top: 25px !important;
+}
