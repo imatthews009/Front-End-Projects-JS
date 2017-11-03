@@ -6,7 +6,7 @@ html {
 }
 
 body {
-    background-color: #f7e5d9 !important;
+    background-image: url('ep_naturalwhite.png');
 }
 .header {
     text-align: center;
@@ -44,10 +44,26 @@ body {
 .quoteButton {
     margin-right: 40px;
     float: right;
-    margin-top: 25px !important;
+    margin-top: 200px !important;
 }
 .shareButton {
     margin-right: 40px;
     float: right;
-    margin-top: 25px !important;
+    margin-top: 200px !important;
 }
+
+.textBox {
+    position: fixed;
+    right: 0;
+    left: 0;
+  
+    text-align: center;
+    border: 1px black solid;
+    background-color: rgba(255,255,255, 0.6);
+    border-radius: 25px;
+    width: 50%;
+    margin-right: auto !important;
+    margin-left: auto !important;
+
+}
+
