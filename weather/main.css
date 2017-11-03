@@ -1,0 +1,16 @@
+.container {
+    text-align: center;
+}
+
+body {
+    background-color: #f7e5d9 !important;
+}
+
+#temperature {
+    margin-bottom: 20px !important;
+}
+
+#city {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
