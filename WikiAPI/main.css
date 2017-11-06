@@ -1,0 +1,43 @@
+body {
+    background: url('mochaGrunge.png');
+}
+
+.wikiCards {
+    border: 2px black solid;
+    width: 80%;
+    margin: 20px auto;
+    border-radius: 25px;
+    padding: 10px 25px 10px 25px;
+}
+
+.wikiCards h1 a{
+    font-family: Courier New;
+    font-weight: bold;
+    color: #bdcebe;
+}
+.wikiCards h2{
+    font-family: Courier New;
+    color: #eca1a6;
+}
+
+.btn-color {
+    background: #d6cbd3;
+/*    text-align: center !important;
+    margin: 0 auto !important;
+    margin-top: 10px !important;
+    float: middle;*/
+}
+
+.searchBar {
+    margin: 25px auto 0 auto;
+    text-align: center;
+}
+
+/*#searchUserInput {
+    color: #bdcebe; 
+}*/
+
+#searchSubmitButton {
+    background: #d6cbd3; 
+}
+
