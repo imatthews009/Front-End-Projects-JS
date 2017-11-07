@@ -1,0 +1,43 @@
+.twitchCard {
+    border: solid 2px #6a0080;
+    margin: 20px 0;
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 15px;
+}
+
+a h1 {
+    text-decoration: none !important;
+}
+
+.online-color {
+    color: #68EFAD;
+}
+
+.hide {
+    display: none;
+}
+
+.btnWrap {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.offline-color {
+    color: #f48fb1 !important;
+}
+body {
+    background: url('https://images8.alphacoders.com/702/702959.jpg');
+}
+
+#allButton {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+#onlineButton {
+    background-color: #68EFAD;
+}
+
+#offlineButton {
+    background-color: #f48fb1;
+}
