@@ -1,13 +1,12 @@
 function searchWiki(searchedWords) {
   var apiFriendlySearchedWords = searchedWords.replace(" ", "%20");
-
   $.ajax({
     url: "https://en.wikipedia.org/w/api.php?",
     dataType: 'jsonp',
     data: {
       action: 'opensearch',
       format: 'json',
-      search: apiFriendlySearchedWords
+      search: searchedWords
     },
     success: function(results) {
       console.log(results);
