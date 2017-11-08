@@ -9,7 +9,7 @@ for(i=0; i < channels.length; i++) {
         if(results["stream"] == null) {
           $('.twitchLinks').prepend("<div class='row twitchCard all offline'><div class='col'><h1 class='offline-color'>" + channels[i] + " is OFFLINE</h1></div></div>")
         }else{
-        $('.twitchLinks').prepend("<div class='row twitchCard all online align-items-center'><div class='col'><a href='" + results["stream"]["channel"]["_links"]["self"] + "'><h1 class='online-color'>" + results["stream"]["channel"]["display_name"] + " is ONLINE</h1></a><h2>Game: " + results["stream"]["channel"]["game"] + "</h2 class='online-color'></div></div>")
+        $('.twitchLinks').prepend("<div class='row twitchCard all online align-items-center'><div class='col'><a href='" + results["stream"]["channel"]["url"] + "'><h1 class='online-color'>" + results["stream"]["channel"]["display_name"] + " is ONLINE</h1></a><h2>Game: " + results["stream"]["channel"]["game"] + "</h2 class='online-color'></div></div>")
         }
       }
     });
